@@ -42,7 +42,7 @@ multi sub EXPORT(*@args) {
 
 =head1 NAME
 
-P5substr - Implement Perl 5's built-in functions
+P5built-ins - Implement Perl 5's built-in functions
 
 =head1 SYNOPSIS
 

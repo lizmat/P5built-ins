@@ -1,7 +1,9 @@
+[![Build Status](https://travis-ci.org/lizmat/P5built-ins.svg?branch=master)](https://travis-ci.org/lizmat/P5built-ins)
+
 NAME
 ====
 
-P5substr - Implement Perl 5's built-in functions
+P5built-ins - Implement Perl 5's built-in functions
 
 SYNOPSIS
 ========

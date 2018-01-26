@@ -3,8 +3,8 @@ use Test;
 use P5built-ins;
 
 my @supported = <
- caller chomp chop chr each hex index lcfirst length oct ord pack quotemeta
- ref rindex substr tie tied times ucfirst unpack untie
+ caller chomp chop chr each fc hex index lc lcfirst length oct ord pack quotemeta
+ ref rindex substr tie tied times uc ucfirst unpack untie
 >.map: '&' ~ *;
 
 plan +@supported;

@@ -9,8 +9,10 @@
     "P5chop",
     "P5chr",
     "P5each",
+    "P5fc",
     "P5hex",
     "P5index",
+    "P5lc",
     "P5lcfirst",
     "P5length",
     "P5oct",
@@ -22,6 +24,7 @@
     "P5substr",
     "P5tie",
     "P5times",
+    "P5uc",
     "P5ucfirst"
   ],
   "description" : "Implement Perl 5's built-in functions",
@@ -38,5 +41,5 @@
     "CPAN5"
   ],
   "test-depends" : [ ],
-  "version" : "0.0.1"
+  "version" : "0.0.2"
 }

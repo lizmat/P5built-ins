@@ -25,10 +25,7 @@ module P5built-ins:ver<0.0.2> {
     use P5uc;
     use P5ucfirst;
 
-    BEGIN %export{'&' ~ .name} := $_
-      for &caller, &chomp, &chop, &chr, &each, &fc, &hex, &index, &lc, &lcfirst,
-          &length, &oct, &ord, &pack, &quotemeta, &ref, &rindex, &substr, &tie,
-          &tied, &times, &uc, &ucfirst, &unpack, &untie;
+    %export = MY::.keys.grep( *.starts-with('&') ).map: { $_ => ::($_) };
 }
 
 multi sub EXPORT() { %export }

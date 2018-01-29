@@ -1,7 +1,7 @@
 use v6.c;
 
 my %export;
-module P5built-ins:ver<0.0.3> {
+module P5built-ins:ver<0.0.4> {
     use P5caller;
     use P5chomp;
     use P5chop;

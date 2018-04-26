@@ -73,6 +73,7 @@ provide the functionality:
   module      | built-in functions
   ------------+-------------------
   P5caller    | caller
+  P5chdir     | chdir
   P5each      | each
   P5length    | length
   P5pack      | pack unpack

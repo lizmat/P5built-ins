@@ -19,10 +19,10 @@ DESCRIPTION
 
 This module provides an easy way to import a growing number of built-in functions of Perl 5 in Perl 6. Currently supported at:
 
-    caller chdir chomp chop chr closedir each fc fileno hex index lc lcfirst
-    length oct opendir ord pack pop push quotemeta readdir readlink ref
-    rewinddir rindex seek seekdir shift sleep study substr telldir tie tied
-    times uc ucfirst unpack unshift untie
+    caller chdir chomp chop chr closedir each fc fileno gmtime hex index lc
+    lcfirst length localtime oct opendir ord pack pop push quotemeta readdir
+    readlink ref rewinddir rindex seek seekdir shift sleep study substr
+    telldir tie tied times uc ucfirst unpack unshift untie
 
 The following file test operators are also available:
 
@@ -40,6 +40,7 @@ Please look at the porting caveats of the underlying modules that actually provi
     P5each      | each
     P5fileno    | fileno
     P5length    | length
+    P5localtime | localtime gmtime
     P5opendir   | opendir readdir telldir seekdir rewinddir closedir
     P5pack      | pack unpack
     P5readlink  | readlink

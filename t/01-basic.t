@@ -3,10 +3,10 @@ use Test;
 use P5built-ins;
 
 my @supported = <
-  caller chdir chomp chop chr closedir each fc fileno hex index lc lcfirst
-  length oct opendir ord pack pop push quotemeta readdir readlink ref
-  rewinddir rindex seek seekdir shift sleep study substr telldir tie tied
-  times uc ucfirst unpack unshift untie
+  caller chdir chomp chop chr closedir each fc fileno gmtime hex index lc
+  lcfirst length localtime oct opendir ord pack pop push quotemeta readdir
+  readlink ref rewinddir rindex seek seekdir shift sleep study substr
+  telldir tie tied times uc ucfirst unpack unshift untie
 
   prefix:<-r> prefix:<-w> prefix:<-x> prefix:<-e> prefix:<-d> prefix:<-f>
   prefix:<-s> prefix:<-z> prefix:<-l>

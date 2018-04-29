@@ -17,6 +17,7 @@
     "P5lc",
     "P5lcfirst",
     "P5length",
+    "P5localtime",
     "P5opendir",
     "P5pack",
     "P5push",
@@ -47,5 +48,5 @@
     "CPAN5"
   ],
   "test-depends" : [ ],
-  "version" : "0.0.11"
+  "version" : "0.0.12"
 }

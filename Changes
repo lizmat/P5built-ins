@@ -1,6 +1,7 @@
 Revision history for P5built-ins
 
 {{$NEXT}}
+    - forgot to add the dependency on getprotobyname, Travis++
 
 0.0.15  2018-05-03T21:41:05+02:00
     - add support for endprotoent, getprotobyname, getprotobynumber,

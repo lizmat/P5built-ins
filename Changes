@@ -2,6 +2,11 @@ Revision history for P5built-ins
 
 {{$NEXT}}
 
+0.0.15  2018-05-03T21:41:05+02:00
+    - add support for endprotoent, getprotobyname, getprotobynumber,
+      getprotoent, setprotoent
+    - add support for forgotten setpwent and setgrent
+
 0.0.14  2018-05-03T00:03:08+02:00
     - add support for endnetent, getnetbyaddr, getnetbyname, getnetent
       setnetent

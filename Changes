@@ -1,6 +1,9 @@
 Revision history for P5built-ins
 
 {{$NEXT}}
+    - add support for getpriority, setpriority, getppid, getpgrp
+    - add support for rand, srand
+    - add support for reset
 
 0.0.18  2018-05-05T17:09:45+02:00
     - add support for print, printf, say, STDIN, STDOUT, STDERR

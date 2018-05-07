@@ -1,13 +1,14 @@
 use v6.c;
 
 my %export;
-module P5built-ins:ver<0.0.19>:auth<cpan:ELIZABETH> {
+module P5built-ins:ver<0.0.20>:auth<cpan:ELIZABETH> {
     use P5__FILE__;
     use P5caller;
     use P5chdir;
     use P5chomp;
     use P5chr;
     use P5each;
+    use P5defined;
     use P5fc;
     use P5fileno;
     use P5getgrnam;
@@ -74,14 +75,14 @@ P5built-ins - Implement Perl 5's built-in functions
 This module provides an easy way to import a growing number of built-in
 functions of Perl 5 in Perl 6.  Currently supported at:
 
-  caller chdir chomp chop chr closedir each endgrent endnetent endprotoent
+  caller chdir chomp chop chr closedir defined each endgrent endnetent endprotoent
   endpwent endservent fc fileno getgrent getgrgid getgrnam getlogin getnetbyaddr
   getnetbyname getnetent getpgrp getppid getpriority getprotobyname getprotobynumber
   getprotoent getpwent getpwnam getpwuid getservbyname getservbyport getservent
   gmtime hex index lc lcfirst length localtime oct opendir ord pack pop print printf
   push quotemeta rand readdir readlink ref reset reverse rewinddir rindex say seek
   seekdir setgrent setnetent setpriority setprotoent setpwent setservent shift sleep 
-  srand study substr telldir tie tied times uc ucfirst unpack unshift untie
+  srand study substr telldir tie tied times uc ucfirst undef unpack unshift untie
   
 The following file test operators are also available:
 
@@ -101,6 +102,7 @@ provide the functionality:
   --------------+-------------------
   P5caller      | caller
   P5chdir       | chdir
+  P5defined     | defined undef
   P5each        | each
   P5fileno      | fileno
   P5getpriority | getpriority setpriority getppid getpgrp

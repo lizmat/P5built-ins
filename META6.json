@@ -10,6 +10,7 @@
     "P5chdir",
     "P5chomp",
     "P5chr",
+    "P5defined",
     "P5each",
     "P5fc",
     "P5fileno",

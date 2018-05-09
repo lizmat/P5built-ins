@@ -1,7 +1,10 @@
 Revision history for P5built-ins
 
 {{$NEXT}}
+
+0.0.20  2018-05-09T23:43:13+02:00
     - add support for defined, undef
+    - P5rand no longer exports srand
 
 0.0.19  2018-05-07T13:05:44+02:00
     - add support for getpriority, setpriority, getppid, getpgrp

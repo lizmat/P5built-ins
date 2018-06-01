@@ -1,6 +1,8 @@
 Revision history for P5built-ins
 
 {{$NEXT}}
+
+0.0.21  2018-06-01T13:00:28+02:00
     - Added support for abs cos crypt exp int log sin sqrt
     - Replace dependency of P5rand by P5math
     - Now at 100 functions!

@@ -1,7 +1,7 @@
 use v6.c;
 
 my %export;
-module P5built-ins:ver<0.0.20>:auth<cpan:ELIZABETH> {
+module P5built-ins:ver<0.0.21>:auth<cpan:ELIZABETH> {
     use P5__FILE__;
     use P5caller;
     use P5chdir;
@@ -23,12 +23,12 @@ module P5built-ins:ver<0.0.20>:auth<cpan:ELIZABETH> {
     use P5lcfirst;
     use P5length;
     use P5localtime;
+    use P5math;
     use P5opendir;
     use P5pack;
     use P5print;
     use P5push;
     use P5quotemeta;
-    use P5rand;
     use P5readlink;
     use P5ref;
     use P5reset;
@@ -75,16 +75,17 @@ P5built-ins - Implement Perl 5's built-in functions
 This module provides an easy way to import a growing number of built-in
 functions of Perl 5 in Perl 6.  Currently supported at:
 
-  caller chdir chomp chop chr closedir defined each endgrent endnetent
-  endprotoent endpwent endservent fc fileno getgrent getgrgid getgrnam
-  getlogin getnetbyaddr getnetbyname getnetent getpgrp getppid getpriority
-  getprotobyname getprotobynumber getprotoent getpwent getpwnam getpwuid
-  getservbyname getservbyport getservent gmtime hex index lc lcfirst length
-  localtime oct opendir ord pack pop print printf push quotemeta rand readdir
-  readlink ref reset reverse rewinddir rindex say seek seekdir setgrent
-  setnetent setpriority setprotoent setpwent setservent shift sleep study
-  substr telldir tie tied times uc ucfirst undef unpack unshift untie
-  
+  abs caller chdir chomp chop chr closedir cos crypt defined each endgrent
+  endnetent endprotoent endpwent endservent exp fc fileno getgrent getgrgid
+  getgrnam getlogin getnetbyaddr getnetbyname getnetent getpgrp getppid
+  getpriority getprotobyname getprotobynumber getprotoent getpwent getpwnam
+  getpwuid getservbyname getservbyport getservent gmtime hex index int lc
+  lcfirst length localtime log oct opendir ord pack pop print printf push
+  quotemeta rand readdir readlink ref reset reverse rewinddir rindex say
+  seek seekdir setgrent setnetent setpriority setprotoent setpwent setservent
+  shift sin sleep sqrt study substr telldir tie tied times uc ucfirst undef
+  unpack unshift untie
+
 The following file test operators are also available:
 
   -r -w -x -e -f -d -s -z -l
@@ -109,10 +110,10 @@ provide the functionality:
   P5getpriority | getpriority setpriority getppid getpgrp
   P5length      | length
   P5localtime   | localtime gmtime
+  P5math        | abs cos crypt exp int log rand sin sqrt
   P5opendir     | opendir readdir telldir seekdir rewinddir closedir
   P5pack        | pack unpack
   P5print       | print printf say
-  P5rand        | rand
   P5readlink    | readlink
   P5ref         | ref
   P5reset       | reset

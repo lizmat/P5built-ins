@@ -1,9 +1,7 @@
-[![Build Status](https://travis-ci.org/lizmat/P5built-ins.svg?branch=master)](https://travis-ci.org/lizmat/P5built-ins)
-
 NAME
 ====
 
-P5built-ins - Implement Perl 5's built-in functions
+P5built-ins - Implement Perl's built-in functions
 
 SYNOPSIS
 ========
@@ -17,7 +15,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-This module provides an easy way to import a growing number of built-in functions of Perl 5 in Perl 6. Currently supported at:
+This module provides an easy way to import a growing number of built-in functions of Perl in Raku Currently supported at:
 
     abs caller chdir chomp chop chr closedir cos crypt defined each endgrent
     endnetent endprotoent endpwent endservent exp fc fileno getgrent getgrgid
@@ -79,7 +77,7 @@ COPYRIGHT AND LICENSE
 
 Copyright 2018-2019 Elizabeth Mattijsen
 
-Re-imagined from Perl 5 as part of the CPAN Butterfly Plan.
+Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

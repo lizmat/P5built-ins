@@ -1,6 +1,8 @@
 Revision history for P5built-ins
 
 {{$NEXT}}
+    - Changed Perl 6 to Raku, and Perl 5 to Perl
+    - Tighten up dependencies for updated P5* modules
 
 0.0.22  2019-03-17T23:45:04+01:00
     - Tighten up dependencies for updated P5* modules

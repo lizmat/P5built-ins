@@ -1,7 +1,7 @@
 NAME
 ====
 
-P5built-ins - Implement Perl's built-in functions
+Raku port of Perl's built-ins
 
 SYNOPSIS
 ========
@@ -42,28 +42,40 @@ PORTING CAVEATS
 
 Please look at the porting caveats of the underlying modules that actually provide the functionality:
 
-    module        | built-in functions
-    --------------+-------------------
-    P5caller      | caller
-    P5chdir       | chdir
-    P5defined     | defined undef
-    P5each        | each
-    P5fileno      | fileno
-    P5getpriority | getpriority setpriority getppid getpgrp
-    P5length      | length
-    P5localtime   | localtime gmtime
-    P5math        | abs cos crypt exp int log rand sin sqrt
-    P5opendir     | opendir readdir telldir seekdir rewinddir closedir
-    P5pack        | pack unpack
-    P5print       | print printf say
-    P5readlink    | readlink
-    P5ref         | ref
-    P5reset       | reset
-    P5reverse     | reverse
-    P5study       | study
-    P5tie         | tie, tied, untie
-    P5times       | times
-    P5-X          | -r -w -x -e -f -d -s -z -l
+    module           | built-in functions
+    -----------------+-------------------
+    P5caller         | caller
+    P5chdir          | chdir
+    P5chomp          | chomp chop
+    P5chr            | chr ord
+    P5defined        | defined undef
+    P5each           | each
+    P5fc             | fc
+    P5fileno         | fileno
+    P5getgrnam       | endgrent getgrent getgrgid getgrnam setgrent
+    P5getnetbyname   | endnetent getnetbyname getnetbyaddr getnetent setnetent
+    P5getpriority    | getpriority setpriority getppid getpgrp
+    P5getprotobyname | endprotoent getprotobyname getprotobynumber getprotoent setprotoent
+    P5getpwnam       | endpwent getlogin getpwent getpwnam getpwuid setpwent
+    P5getservbyname  | endservent getservbyname getservbyport getservent setservent
+    P5hex            | hex oct
+    P5lc             | lc uc
+    P5lcfirst        | lcfirst ucfirst
+    P5length         | length
+    P5localtime      | localtime gmtime
+    P5math           | abs cos crypt exp int log rand sin sqrt
+    P5opendir        | opendir readdir telldir seekdir rewinddir closedir
+    P5pack           | pack unpack
+    P5print          | print printf say
+    P5push           | push pop
+    P5readlink       | readlink
+    P5ref            | ref
+    P5reset          | reset
+    P5reverse        | reverse
+    P5study          | study
+    P5tie            | tie, tied, untie
+    P5times          | times
+    P5-X             | -r -w -x -e -f -d -s -z -l
 
 AUTHOR
 ======
@@ -75,7 +87,7 @@ Source can be located at: https://github.com/lizmat/P5built-ins . Comments and P
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018-2020 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 

@@ -1,4 +1,4 @@
-use v6.c;
+use v6.*;
 use Test;
 use P5built-ins;
 
@@ -38,4 +38,4 @@ for @supported {
       "is $_ imported?";
 }
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab shiftwidth=4

@@ -1,46 +1,46 @@
 use v6.d;
 
 my %export;
-module P5built-ins:ver<0.0.23>:auth<cpan:ELIZABETH> {
-    use P5-X:ver<0.0.8>:auth<cpan:ELIZABETH>;
-    use P5__FILE__:ver<0.0.5>:auth<cpan:ELIZABETH>;
-    use P5caller:ver<0.0.11>:auth<cpan:ELIZABETH>;
-    use P5chdir:ver<0.0.8>:auth<cpan:ELIZABETH>;
-    use P5chomp:ver<0.0.8>:auth<cpan:ELIZABETH>;
-    use P5chr:ver<0.0.7>:auth<cpan:ELIZABETH>;
-    use P5defined:ver<0.0.4>:auth<cpan:ELIZABETH>;
-    use P5each:ver<0.0.7>:auth<cpan:ELIZABETH>;
-    use P5fc:ver<0.0.7>:auth<cpan:ELIZABETH>;
-    use P5fileno:ver<0.0.5>:auth<cpan:ELIZABETH>;
-    use P5getgrnam:ver<0.0.8>:auth<cpan:ELIZABETH>;
-    use P5getnetbyname:ver<0.0.6>:auth<cpan:ELIZABETH>;
-    use P5getpriority:ver<0.0.7>:auth<cpan:ELIZABETH>;
-    use P5getprotobyname:ver<0.0.5>:auth<cpan:ELIZABETH>;
-    use P5getpwnam:ver<0.0.9>:auth<cpan:ELIZABETH>;
-    use P5getservbyname:ver<0.0.6>:auth<cpan:ELIZABETH>;
-    use P5hex:ver<0.0.7>:auth<cpan:ELIZABETH>;
-    use P5index:ver<0.0.6>:auth<cpan:ELIZABETH>;
-    use P5lc:ver<0.0.8>:auth<cpan:ELIZABETH>;
-    use P5lcfirst:ver<0.0.9>:auth<cpan:ELIZABETH>;
-    use P5length:ver<0.0.6>:auth<cpan:ELIZABETH>;
-    use P5localtime:ver<0.0.8>:auth<cpan:ELIZABETH>;
-    use P5math:ver<0.0.4>:auth<cpan:ELIZABETH>;
-    use P5opendir:ver<0.0.6>:auth<cpan:ELIZABETH>;
-    use P5pack:ver<0.0.12>:auth<cpan:ELIZABETH>;
-    use P5print:ver<0.0.5>:auth<cpan:ELIZABETH>;
-    use P5push:ver<0.0.6>:auth<cpan:ELIZABETH>;
-    use P5quotemeta:ver<0.0.5>:auth<cpan:ELIZABETH>;
-    use P5readlink:ver<0.0.8>:auth<cpan:ELIZABETH>;
-    use P5ref:ver<0.0.6>:auth<cpan:ELIZABETH>;
-    use P5reset:ver<0.0.5>:auth<cpan:ELIZABETH>;
-    use P5reverse:ver<0.0.7>:auth<cpan:ELIZABETH>;
-    use P5seek:ver<0.0.4>:auth<cpan:ELIZABETH>;
-    use P5shift:ver<0.0.6>:auth<cpan:ELIZABETH>;
-    use P5sleep:ver<0.0.9>:auth<cpan:ELIZABETH>;
-    use P5study:ver<0.0.5>:auth<cpan:ELIZABETH>;
-    use P5substr:ver<0.0.6>:auth<cpan:ELIZABETH>;
-    use P5tie:ver<0.0.13>:auth<cpan:ELIZABETH>;
-    use P5times:ver<0.0.8>:auth<cpan:ELIZABETH>;
+module P5built-ins:ver<0.0.24>:auth<zef:lizmat> {
+    use P5-X:ver<0.0.9>:auth<zef:lizmat>;
+    use P5__FILE__:ver<0.0.6>:auth<zef:lizmat>;
+    use P5caller:ver<0.0.12>:auth<zef:lizmat>;
+    use P5chdir:ver<0.0.9>:auth<zef:lizmat>;
+    use P5chomp:ver<0.0.9>:auth<zef:lizmat>;
+    use P5chr:ver<0.0.8>:auth<zef:lizmat>;
+    use P5defined:ver<0.0.5>:auth<zef:lizmat>;
+    use P5each:ver<0.0.8>:auth<zef:lizmat>;
+    use P5fc:ver<0.0.8>:auth<zef:lizmat>;
+    use P5fileno:ver<0.0.6>:auth<zef:lizmat>;
+    use P5getgrnam:ver<0.0.9>:auth<zef:lizmat>;
+    use P5getnetbyname:ver<0.0.7>:auth<zef:lizmat>;
+    use P5getpriority:ver<0.0.8>:auth<zef:lizmat>;
+    use P5getprotobyname:ver<0.0.6>:auth<zef:lizmat>;
+    use P5getpwnam:ver<0.0.10>:auth<zef:lizmat>;
+    use P5getservbyname:ver<0.0.7>:auth<zef:lizmat>;
+    use P5hex:ver<0.0.8>:auth<zef:lizmat>;
+    use P5index:ver<0.0.7>:auth<zef:lizmat>;
+    use P5lc:ver<0.0.9>:auth<zef:lizmat>;
+    use P5lcfirst:ver<0.0.10>:auth<zef:lizmat>;
+    use P5length:ver<0.0.7>:auth<zef:lizmat>;
+    use P5localtime:ver<0.0.9>:auth<zef:lizmat>;
+    use P5math:ver<0.0.5>:auth<zef:lizmat>;
+    use P5opendir:ver<0.0.7>:auth<zef:lizmat>;
+    use P5pack:ver<0.0.13>:auth<zef:lizmat>;
+    use P5print:ver<0.0.6>:auth<zef:lizmat>;
+    use P5push:ver<0.0.7>:auth<zef:lizmat>;
+    use P5quotemeta:ver<0.0.6>:auth<zef:lizmat>;
+    use P5readlink:ver<0.0.9>:auth<zef:lizmat>;
+    use P5ref:ver<0.0.7>:auth<zef:lizmat>;
+    use P5reset:ver<0.0.6>:auth<zef:lizmat>;
+    use P5reverse:ver<0.0.8>:auth<zef:lizmat>;
+    use P5seek:ver<0.0.5>:auth<zef:lizmat>;
+    use P5shift:ver<0.0.7>:auth<zef:lizmat>;
+    use P5sleep:ver<0.0.10>:auth<zef:lizmat>;
+    use P5study:ver<0.0.6>:auth<zef:lizmat>;
+    use P5substr:ver<0.0.7>:auth<zef:lizmat>;
+    use P5tie:ver<0.0.14>:auth<zef:lizmat>;
+    use P5times:ver<0.0.10>:auth<zef:lizmat>;
 
     # there must be a better way to do this, but this will work for now
     %export = MY::.keys.grep( *.starts-with('&') ).map: { $_ => ::($_) };
@@ -137,14 +137,14 @@ provide the functionality:
 
 =head1 AUTHOR
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Source can be located at: https://github.com/lizmat/P5built-ins . Comments and
 Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2020 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 

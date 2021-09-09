@@ -2,6 +2,13 @@ Revision history for P5built-ins
 
 {{$NEXT}}
 
+0.0.24  2021-09-09T18:15:45+02:00
+    - Updated dependencies
+    - Change file extension to .rakumod
+    - Migrate to zef ecosystem
+    - Update email address
+    - Update copyright year
+
 0.0.23  2020-11-12T13:19:29+01:00
     - Change name of distribution
     - Force to highest possible Raku version

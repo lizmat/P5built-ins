@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/lizmat/P5built-ins/workflows/test/badge.svg)](https://github.com/lizmat/P5built-ins/actions)
+
 NAME
 ====
 
@@ -80,14 +82,14 @@ Please look at the porting caveats of the underlying modules that actually provi
 AUTHOR
 ======
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Source can be located at: https://github.com/lizmat/P5built-ins . Comments and Pull Requests are welcome.
 
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018-2020 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 

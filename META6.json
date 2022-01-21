@@ -17,7 +17,7 @@
     "P5fc:ver<0.0.8>:auth<zef:lizmat>",
     "P5fileno:ver<0.0.6>:auth<zef:lizmat>",
     "P5getgrnam:ver<0.0.9>:auth<zef:lizmat>",
-    "P5getnetbyname:ver<0.0.7>:auth<zef:lizmat>",
+    "P5getnetbyname:ver<0.0.8>:auth<zef:lizmat>",
     "P5getpriority:ver<0.0.8>:auth<zef:lizmat>",
     "P5getprotobyname:ver<0.0.6>:auth<zef:lizmat>",
     "P5getpwnam:ver<0.0.10>:auth<zef:lizmat>",
@@ -62,5 +62,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.24"
+  "version": "0.0.25"
 }

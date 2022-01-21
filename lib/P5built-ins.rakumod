@@ -1,7 +1,5 @@
-use v6.d;
-
 my %export;
-module P5built-ins:ver<0.0.24>:auth<zef:lizmat> {
+module P5built-ins:ver<0.0.25>:auth<zef:lizmat> {
     use P5-X:ver<0.0.9>:auth<zef:lizmat>;
     use P5__FILE__:ver<0.0.6>:auth<zef:lizmat>;
     use P5caller:ver<0.0.12>:auth<zef:lizmat>;
@@ -13,7 +11,7 @@ module P5built-ins:ver<0.0.24>:auth<zef:lizmat> {
     use P5fc:ver<0.0.8>:auth<zef:lizmat>;
     use P5fileno:ver<0.0.6>:auth<zef:lizmat>;
     use P5getgrnam:ver<0.0.9>:auth<zef:lizmat>;
-    use P5getnetbyname:ver<0.0.7>:auth<zef:lizmat>;
+    use P5getnetbyname:ver<0.0.8>:auth<zef:lizmat>;
     use P5getpriority:ver<0.0.8>:auth<zef:lizmat>;
     use P5getprotobyname:ver<0.0.6>:auth<zef:lizmat>;
     use P5getpwnam:ver<0.0.10>:auth<zef:lizmat>;
@@ -144,7 +142,7 @@ Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018, 2019, 2020, 2021 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021, 2022 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 

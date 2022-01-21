@@ -89,7 +89,7 @@ Source can be located at: https://github.com/lizmat/P5built-ins . Comments and P
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018, 2019, 2020, 2021 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021, 2022 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 

@@ -1,14 +1,14 @@
 my %export;
-module P5built-ins:ver<0.0.25>:auth<zef:lizmat> {
-    use P5-X:ver<0.0.9>:auth<zef:lizmat>;
+{
+    use P5-X:ver<0.0.10>:auth<zef:lizmat>;
     use P5__FILE__:ver<0.0.6>:auth<zef:lizmat>;
     use P5caller:ver<0.0.12>:auth<zef:lizmat>;
     use P5chdir:ver<0.0.9>:auth<zef:lizmat>;
     use P5chomp:ver<0.0.9>:auth<zef:lizmat>;
-    use P5chr:ver<0.0.8>:auth<zef:lizmat>;
-    use P5defined:ver<0.0.5>:auth<zef:lizmat>;
+    use P5chr:ver<0.0.9>:auth<zef:lizmat>;
+    use P5defined:ver<0.0.7>:auth<zef:lizmat>;
     use P5each:ver<0.0.8>:auth<zef:lizmat>;
-    use P5fc:ver<0.0.8>:auth<zef:lizmat>;
+    use P5fc:ver<0.0.9>:auth<zef:lizmat>;
     use P5fileno:ver<0.0.6>:auth<zef:lizmat>;
     use P5getgrnam:ver<0.0.9>:auth<zef:lizmat>;
     use P5getnetbyname:ver<0.0.8>:auth<zef:lizmat>;
@@ -16,24 +16,24 @@ module P5built-ins:ver<0.0.25>:auth<zef:lizmat> {
     use P5getprotobyname:ver<0.0.6>:auth<zef:lizmat>;
     use P5getpwnam:ver<0.0.10>:auth<zef:lizmat>;
     use P5getservbyname:ver<0.0.7>:auth<zef:lizmat>;
-    use P5hex:ver<0.0.8>:auth<zef:lizmat>;
+    use P5hex:ver<0.0.9>:auth<zef:lizmat>;
     use P5index:ver<0.0.7>:auth<zef:lizmat>;
-    use P5lc:ver<0.0.9>:auth<zef:lizmat>;
-    use P5lcfirst:ver<0.0.10>:auth<zef:lizmat>;
-    use P5length:ver<0.0.7>:auth<zef:lizmat>;
+    use P5lc:ver<0.0.10>:auth<zef:lizmat>;
+    use P5lcfirst:ver<0.0.11>:auth<zef:lizmat>;
+    use P5length:ver<0.0.8>:auth<zef:lizmat>;
     use P5localtime:ver<0.0.9>:auth<zef:lizmat>;
-    use P5math:ver<0.0.5>:auth<zef:lizmat>;
-    use P5opendir:ver<0.0.7>:auth<zef:lizmat>;
-    use P5pack:ver<0.0.13>:auth<zef:lizmat>;
-    use P5print:ver<0.0.6>:auth<zef:lizmat>;
-    use P5push:ver<0.0.7>:auth<zef:lizmat>;
-    use P5quotemeta:ver<0.0.6>:auth<zef:lizmat>;
-    use P5readlink:ver<0.0.9>:auth<zef:lizmat>;
-    use P5ref:ver<0.0.7>:auth<zef:lizmat>;
-    use P5reset:ver<0.0.6>:auth<zef:lizmat>;
-    use P5reverse:ver<0.0.8>:auth<zef:lizmat>;
+    use P5math:ver<0.0.6>:auth<zef:lizmat>;
+    use P5opendir:ver<0.0.8>:auth<zef:lizmat>;
+    use P5pack:ver<0.0.14>:auth<zef:lizmat>;
+    use P5print:ver<0.0.7>:auth<zef:lizmat>;
+    use P5push:ver<0.0.8>:auth<zef:lizmat>;
+    use P5quotemeta:ver<0.0.7>:auth<zef:lizmat>;
+    use P5readlink:ver<0.0.10>:auth<zef:lizmat>;
+    use P5ref:ver<0.0.8>:auth<zef:lizmat>;
+    use P5reset:ver<0.0.7>:auth<zef:lizmat>;
+    use P5reverse:ver<0.0.9>:auth<zef:lizmat>;
     use P5seek:ver<0.0.5>:auth<zef:lizmat>;
-    use P5shift:ver<0.0.7>:auth<zef:lizmat>;
+    use P5shift:ver<0.0.8>:auth<zef:lizmat>;
     use P5sleep:ver<0.0.10>:auth<zef:lizmat>;
     use P5study:ver<0.0.6>:auth<zef:lizmat>;
     use P5substr:ver<0.0.7>:auth<zef:lizmat>;
@@ -137,12 +137,16 @@ provide the functionality:
 
 Elizabeth Mattijsen <liz@raku.rocks>
 
+If you like this module, or what I’m doing more generally, committing to a
+L<small sponsorship|https://github.com/sponsors/lizmat/>  would mean a great
+deal to me!
+
 Source can be located at: https://github.com/lizmat/P5built-ins . Comments and
 Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018, 2019, 2020, 2021, 2022 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021, 2022, 2023 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 

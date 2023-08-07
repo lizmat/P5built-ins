@@ -32,10 +32,15 @@ my @supported = <
 
 plan +@supported;
 
-for @supported {
-    ok defined(::($_))              # something here by that name
-      && ::($_) !=== SETTING::{$_}, # here, but not from the core Setting
-      "is $_ imported?";
+for @supported -> $name {
+    if defined(::($name)) -> $here {          # something here by that name
+        with SETTING::{$name} -> $there {     # also in setting
+            nok $here === $there;             # failed to override if same
+        }
+        else {
+            pass "$name is imported";
+        }
+    }
 }
 
 # vim: expandtab shiftwidth=4

@@ -44,7 +44,8 @@
     "P5study:ver<0.0.6>:auth<zef:lizmat>",
     "P5substr:ver<0.0.7>:auth<zef:lizmat>",
     "P5tie:ver<0.0.14>:auth<zef:lizmat>",
-    "P5times:ver<0.0.10>:auth<zef:lizmat>"
+    "P5times:ver<0.0.10>:auth<zef:lizmat>",
+    "P5unlink:ver<0.0.1>:auth<zef:lizmat>"
   ],
   "description": "Raku port of Perl's built-ins",
   "license": "Artistic-2.0",
@@ -62,5 +63,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.27"
+  "version": "0.0.28"
 }

@@ -12,7 +12,7 @@ my @supported = <
   quotemeta rand readdir readlink ref reset reverse rewinddir rindex say
   seek seekdir setgrent setnetent setpriority setprotoent setpwent setservent
   shift sin sleep sqrt study substr telldir tie tied times uc ucfirst undef
-  unpack unshift untie
+  unlink unpack unshift untie
 
   prefix:<-r> prefix:<-w> prefix:<-x> prefix:<-e> prefix:<-d> prefix:<-f>
   prefix:<-s> prefix:<-z> prefix:<-l>

@@ -28,7 +28,7 @@ This module provides an easy way to import a growing number of built-in function
     quotemeta rand readdir readlink ref reset reverse rewinddir rindex say
     seek seekdir setgrent setnetent setpriority setprotoent setpwent setservent
     shift sin sleep sqrt study substr telldir tie tied times uc ucfirst undef
-    unpack unshift untie
+    unlink unpack unshift untie
 
 The following file test operators are also available:
 
@@ -77,6 +77,7 @@ Please look at the porting caveats of the underlying modules that actually provi
     P5study          | study
     P5tie            | tie, tied, untie
     P5times          | times
+    P5unlink         | unlink
     P5-X             | -r -w -x -e -f -d -s -z -l
 
 AUTHOR

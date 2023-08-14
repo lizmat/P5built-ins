@@ -39,6 +39,7 @@ my %export;
     use P5substr:ver<0.0.7>:auth<zef:lizmat>;
     use P5tie:ver<0.0.14>:auth<zef:lizmat>;
     use P5times:ver<0.0.10>:auth<zef:lizmat>;
+    use P5unlink:ver<0.0.1>:auth<zef:lizmat>;
 
     # there must be a better way to do this, but this will work for now
     %export = MY::.keys.grep( *.starts-with('&') ).map: { $_ => ::($_) };
@@ -82,7 +83,7 @@ functions of Perl in Raku  Currently supported at:
   quotemeta rand readdir readlink ref reset reverse rewinddir rindex say
   seek seekdir setgrent setnetent setpriority setprotoent setpwent setservent
   shift sin sleep sqrt study substr telldir tie tied times uc ucfirst undef
-  unpack unshift untie
+  unlink unpack unshift untie
 
 The following file test operators are also available:
 
@@ -131,6 +132,7 @@ provide the functionality:
   P5study          | study
   P5tie            | tie, tied, untie
   P5times          | times
+  P5unlink         | unlink
   P5-X             | -r -w -x -e -f -d -s -z -l
 
 =head1 AUTHOR
